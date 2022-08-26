@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-26T11:09:01" hostname="Testvagrants-MacBook-Pro.local" time="0.002">
+<testsuite name="CalculatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-08-26T13:58:27" hostname="Testvagrants-MacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="testAdd" classname="CalculatorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testByTimeout" classname="CalculatorTest" time="0.001"/>
+  <testcase name="testForException" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testMultiply" classname="CalculatorTest" time="0.001"/>
+  <testcase name="testPercentage" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testSquare" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testSubtractMethod" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testAddMethod" classname="CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[This is before class method
+TimeOut Expected method
+TimeOut Expected method
+TimeOut Expected method
+TimeOut Expected method
+TimeOut Expected method
+Printing After Method Execution.......
+Printing After Method Execution.......
+Printing After Method Execution.......
+Printing After Method Execution.......
+Printing After Method Execution.......
+Printing After Method Execution.......
+Printing After Method Execution.......
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
