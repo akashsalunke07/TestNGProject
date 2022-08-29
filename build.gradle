@@ -10,6 +10,7 @@ repositories {
 }
 dependencies {
 
+    implementation 'org.slf4j:slf4j-log4j12:1.7.36'
     testImplementation 'org.testng:testng:7.6.1'
     // https://mvnrepository.com/artifact/org.testng/testng
 
@@ -17,5 +18,7 @@ dependencies {
 }
 test{
     useTestNG(){
+//        includeGroups 'simpleCalculation'
+//        excludeGroups 'complexCalculation'
     }
 }

@@ -17,12 +17,16 @@ public class CalculatorTest {
         System.out.println("This is After class method");
     }
 
-    @BeforeMethod
+    @BeforeMethod(groups = {"simpleCalculation"})
     private void initializeCalculator(){
         calculator = new Calculator();
     }
+    @BeforeMethod(groups = {"complexCalculation"})
+    private void initializeCalculator1(){
+        calculator = new Calculator();
+    }
 
-    @AfterMethod
+    @AfterMethod(groups = {"simpleCalculation","complexCalculation"})
     private void afterMAssage(){
         System.out.println("Printing After Method Execution.......");
     }
@@ -39,31 +43,28 @@ public class CalculatorTest {
     }
 
 
-    @Test(priority = 1,groups = {"simpleCalculation"})
-    private void testAddMethod(){
-        int num1 = 1;
-        int num2 = 2;
+    @Test(priority = 1,groups = {"simpleCalculation"},dataProvider = "simpleCalculationData" , dataProviderClass = DataProviderMethod.class)
+    private void testAddMethod(int num1,int num2){
+
 //        Calculator calculator = new Calculator();
         int add = calculator.add(num1,num2);
-        Assert.assertEquals(add,3);
+        Assert.assertEquals(add,7);
     }
 
-    @Test(groups = {"simpleCalculation"})
-    private void testSubtractMethod(){
-        int num1 = 4;
-        int num2 = 1;
+    @Test(groups = {"simpleCalculation"},dataProvider = "simpleCalculationData" , dataProviderClass = DataProviderMethod.class)
+    private void testSubtractMethod(int num1,int num2){
+
 //        Calculator calculator = new Calculator();
         int sub = calculator.subtract(num1,num2);
         Assert.assertEquals(sub,3);
     }
 
-    @Test(groups = {"simpleCalculation"})
-    private void testMultiply(){
-        int num1 = 3;
-        int num2 = 5;
+    @Test(groups = {"simpleCalculation"},dataProvider = "simpleCalculationData" , dataProviderClass = DataProviderMethod.class)
+    private void testMultiply(int num1,int num2){
+
 //        Calculator calculator = new Calculator();
         int multiply = calculator.multiply(num1,num2);
-        Assert.assertEquals(multiply,15);
+        Assert.assertEquals(multiply,10);
     }
 
     @Test(groups = {"complexCalculation"})
@@ -99,6 +100,14 @@ public class CalculatorTest {
     private void testForException() throws IOException {
         throw new IOException("This is Tester Given Exeption");
     }
+
+
+
+
+ @Test(dataProvider = "AddData" , dataProviderClass = DataProviderMethod.class)
+    private void checkDataProvider(int num1,int num2){
+     System.out.println("Data is "+num1+" and "+num2);
+ }
 
 
 
