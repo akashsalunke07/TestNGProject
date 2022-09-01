@@ -18,7 +18,27 @@ dependencies {
 }
 test{
     useTestNG(){
-//        includeGroups 'simpleCalculation'
-//        excludeGroups 'complexCalculation'
+//        excludeGroups 'simpleCalculation'
+        includeGroups 'simpleCalculation'
+        useDefaultListeners = true
+        testLogging.showStandardStreams(true)
+//        parallel = "methods"
     }
 }
+
+
+task runTests (type: Test){
+    useTestNG() {
+
+//        includeGroups 'complexCalculation'
+//        excludeGroups 'simpleCalculation'
+
+        useDefaultListeners = true
+        testLogging.showStandardStreams(true)
+        testLogging.events("Passed", "Failed", "Skipped")
+
+        //include('complexCalculation')
+    }
+
+}
+

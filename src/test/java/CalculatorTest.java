@@ -11,36 +11,51 @@ public class CalculatorTest {
     @BeforeClass
     private void beforeClassMethode(){
         System.out.println("This is before class method");
+
     }
     @AfterClass
     private void AfterClassMethode(){
         System.out.println("This is After class method");
     }
 
-    @BeforeMethod(groups = {"simpleCalculation"})
-    private void initializeCalculator(){
-        calculator = new Calculator();
-    }
-    @BeforeMethod(groups = {"complexCalculation"})
-    private void initializeCalculator1(){
+//    @BeforeMethod(groups = {"simpleCalculation"})
+//    private void initializeCalculator(){
+//        System.out.println("This is Before Method group simpleCalculation method");
+//
+//        calculator = new Calculator();
+//    }
+
+
+//    @BeforeMethod(groups = {"complexCalculation"})
+//    private void initializeCalculator1(){
+//        System.out.println("This is Before Method group complexCalculation method");
+//        calculator = new Calculator();
+//    }
+
+
+    @BeforeMethod(alwaysRun = true)
+    private void initializeCalculator2(){
+        System.out.println("This is Before Method method");
         calculator = new Calculator();
     }
 
-    @AfterMethod(groups = {"simpleCalculation","complexCalculation"})
+
+    @AfterMethod(groups = {"simpleCalculation"})
     private void afterMAssage(){
         System.out.println("Printing After Method Execution.......");
     }
 
 
-    @BeforeGroups
-    public void beforeGroupMethod(){
-        System.out.println("New Group Test Methods Are Started .............");
-    }
-
-    @AfterGroups
-    public void afterGroupMethod(){
-        System.out.println("Group Test Methods Are Ended here .............");
-    }
+//    @BeforeGroups
+//    public void beforeGroupMethod(){
+//        System.out.println("New Group Test Methods Are Started .............");
+////        calculator = new Calculator();
+//    }
+//
+//    @AfterGroups
+//    public void afterGroupMethod(){
+//        System.out.println("Group Test Methods Are Ended here .............");
+//    }
 
 
     @Test(priority = 1,groups = {"simpleCalculation"},dataProvider = "simpleCalculationData" , dataProviderClass = DataProviderMethod.class)
@@ -71,7 +86,7 @@ public class CalculatorTest {
     private void testPercentage(){
         int num = 58;
         int total = 100;
-//        Calculator calculator = new Calculator();
+       // Calculator calculator = new Calculator();
         double percentage = calculator.percentage(num,total);
         Assert.assertEquals(percentage,58.00);
     }
@@ -79,7 +94,7 @@ public class CalculatorTest {
     @Test(groups = {"complexCalculation"})
     private void testSquare(){
         int num = 3;
-//        Calculator calculator = new Calculator();
+       // Calculator calculator = new Calculator();
         int square = calculator.square(num);
         Assert.assertEquals(square,9);
     }

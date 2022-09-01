@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GroupingMethod" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-08-29T13:07:53" hostname="Testvagrants-MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="testAddMethod1[0](5, 2)" classname="GroupingMethod" time="0.001"/>
+  <testcase name="testMultiply1[0](5, 2)" classname="GroupingMethod" time="0.0"/>
+  <testcase name="testPercentage1" classname="GroupingMethod" time="0.001"/>
+  <testcase name="testSquare1" classname="GroupingMethod" time="0.0"/>
+  <testcase name="testSubtractMethod1[0](5, 2)" classname="GroupingMethod" time="0.0"/>
+  <system-out><![CDATA[This is Before Method method
+This is Before Method method
+This is Before Method method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
