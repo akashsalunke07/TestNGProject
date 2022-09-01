@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DataProviderMethod" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-29T13:07:53" hostname="Testvagrants-MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="testAddition[0](4, 1)" classname="DataProviderMethod" time="0.001"/>
+  <testcase name="testAddition[1](5, 6)" classname="DataProviderMethod" time="0.0"/>
+  <testcase name="testAddition[2](8, 9)" classname="DataProviderMethod" time="0.0"/>
+  <system-out><![CDATA[Test Passed with 4 and 1 = 5
+Test Passed with 5 and 6 = 11
+Test Passed with 8 and 9 = 17
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

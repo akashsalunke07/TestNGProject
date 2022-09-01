@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="19" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T18:37:53 IST" name="Gradle suite" finished-at="2022-08-29T18:37:53 IST" duration-ms="42">
+    <groups>
+      <group name="simpleCalculation">
+        <method signature="CalculatorTest.testMultiply(int,int)[pri:0, instance:CalculatorTest@6f46426d]" name="testMultiply" class="CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtractMethod(int,int)[pri:0, instance:CalculatorTest@6f46426d]" name="testSubtractMethod" class="CalculatorTest"/>
+        <method signature="GroupingMethod.testAddMethod1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" name="testAddMethod1" class="GroupingMethod"/>
+        <method signature="GroupingMethod.testMultiply1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" name="testMultiply1" class="GroupingMethod"/>
+        <method signature="GroupingMethod.testSubtractMethod1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" name="testSubtractMethod1" class="GroupingMethod"/>
+        <method signature="CalculatorTest.testAddMethod(int,int)[pri:1, instance:CalculatorTest@6f46426d]" name="testAddMethod" class="CalculatorTest"/>
+      </group> <!-- simpleCalculation -->
+      <group name="complexCalculation">
+        <method signature="CalculatorTest.testPercentage()[pri:0, instance:CalculatorTest@6f46426d]" name="testPercentage" class="CalculatorTest"/>
+        <method signature="CalculatorTest.testSquare()[pri:0, instance:CalculatorTest@6f46426d]" name="testSquare" class="CalculatorTest"/>
+        <method signature="GroupingMethod.testPercentage1()[pri:0, instance:GroupingMethod@483f6d77]" name="testPercentage1" class="GroupingMethod"/>
+        <method signature="GroupingMethod.testSquare1()[pri:0, instance:GroupingMethod@483f6d77]" name="testSquare1" class="GroupingMethod"/>
+      </group> <!-- complexCalculation -->
+    </groups>
+    <test started-at="2022-08-29T18:37:53 IST" name="Gradle test" finished-at="2022-08-29T18:37:53 IST" duration-ms="42">
+      <class name="CalculatorTest">
+        <test-method is-config="true" signature="beforeClassMethode()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="beforeClassMethode" finished-at="2022-08-29T18:37:53 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethode -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method signature="checkDataProvider(int,int)[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="checkDataProvider" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProvider -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="checkDataProvider(int,int)[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="checkDataProvider" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProvider -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method signature="checkDataProvider(int,int)[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="checkDataProvider" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataProvider -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method signature="testByTimeout()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testByTimeout" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByTimeout -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="testForException()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testForException" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[This is Tester Given Exeption]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: This is Tester Given Exeption
+at CalculatorTest.testForException(CalculatorTest.java:116)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForException -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="testMultiply(int,int)[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testMultiply" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="testPercentage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testPercentage" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="testSquare()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testSquare" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquare -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method signature="testSubtractMethod(int,int)[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testSubtractMethod" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractMethod -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method signature="testAddMethod(int,int)[pri:1, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="testAddMethod" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMethod -->
+        <test-method is-config="true" signature="afterMAssage()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="afterMAssage" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMAssage -->
+        <test-method is-config="true" signature="initializeCalculator2()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="initializeCalculator2" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeCalculator2 -->
+        <test-method is-config="true" signature="AfterClassMethode()[pri:0, instance:CalculatorTest@6f46426d]" started-at="2022-08-29T18:37:53 IST" name="AfterClassMethode" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethode -->
+      </class> <!-- CalculatorTest -->
+      <class name="DataProviderMethod">
+        <test-method signature="testAddition(java.lang.Integer,java.lang.Integer)[pri:0, instance:DataProviderMethod@63a12c68]" started-at="2022-08-29T18:37:53 IST" name="testAddition" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(java.lang.Integer,java.lang.Integer)[pri:0, instance:DataProviderMethod@63a12c68]" started-at="2022-08-29T18:37:53 IST" name="testAddition" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(java.lang.Integer,java.lang.Integer)[pri:0, instance:DataProviderMethod@63a12c68]" started-at="2022-08-29T18:37:53 IST" name="testAddition" data-provider="AddData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+      </class> <!-- DataProviderMethod -->
+      <class name="GroupingMethod">
+        <test-method is-config="true" signature="initializer()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="initializer" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="testAddMethod1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="testAddMethod1" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMethod1 -->
+        <test-method signature="testMultiply1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="testMultiply1" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiply1 -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="initializer" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="testPercentage1()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="testPercentage1" finished-at="2022-08-29T18:37:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage1 -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="initializer" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="testSquare1()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="testSquare1" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquare1 -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="initializer" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+        <test-method signature="testSubtractMethod1(int,int)[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="testSubtractMethod1" data-provider="simpleCalculationData" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractMethod1 -->
+        <test-method is-config="true" signature="initializer()[pri:0, instance:GroupingMethod@483f6d77]" started-at="2022-08-29T18:37:53 IST" name="initializer" finished-at="2022-08-29T18:37:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializer -->
+      </class> <!-- GroupingMethod -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>

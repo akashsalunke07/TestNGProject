@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gradle suite]" verbose="0">
+  <test thread-count="5" name="Gradle test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="simpleCalculation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CalculatorTest">
+        <methods>
+          <include name="testSubtractMethod" invocation-numbers="0"/>
+          <include name="afterMAssage"/>
+          <include name="testAddMethod" invocation-numbers="0"/>
+          <include name="testMultiply" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CalculatorTest -->
+    </classes>
+  </test> <!-- Gradle test(failed) -->
+</suite> <!-- Failed suite [Gradle suite] -->
